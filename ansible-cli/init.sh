@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./box.sh
+# source ./box.sh
 
 box "Remove existing containers" "blue" "red"
 docker rm -f debian1 ubuntu1 centos1
